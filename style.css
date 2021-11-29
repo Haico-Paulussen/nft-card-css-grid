@@ -1,11 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
 
 :root {
-    /* Primary */
     --soft-blue: hsl(215, 51%, 70%);
     --cyan: hsl(178, 100%, 50%);
-
-    /* Neutral */
     --very-dark-blue-main: hsl(217, 54%, 11%);
     --very-dark-blue-card: hsl(216, 50%, 16%);
     --very-dark-blue-line: hsl(215, 32%, 27%);
@@ -19,10 +16,6 @@ body {
     background-color: var(--very-dark-blue-main);
     display: grid;
     place-items: center;
-}
-
-@media (min-width: 1000px){
-
 }
 
 main {
@@ -67,7 +60,6 @@ main {
     place-items: center;
 }
 
-
 .header:hover .view-container {
     display: block;
 }
@@ -92,8 +84,7 @@ main {
 
 .info {
     display: grid;
-    grid: 1fr / 1fr 1fr;
-    align-items: center;
+    justify-content: space-between;
 }
 
 .value {
@@ -134,7 +125,6 @@ main {
     cursor: pointer;
 }
 
-/* Footer section */
 footer {
     color: black;
     text-align: center;
