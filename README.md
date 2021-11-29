@@ -19,9 +19,15 @@ This is a solution to the [NFT preview card component challenge on Frontend Ment
 
 ### The challenge
 
-Users should be able to:
+Your challenge is to build out this preview card component and get it looking as close to the design as possible.
 
-- View the optimal layout for the site depending on their device's screen size
+You can use any tools you like to help you complete the challenge. So if you've got something you'd like to practice, feel free to give it a go.
+
+Your users should be able to:
+
+- View the optimal layout depending on their device's screen size
+- See hover states for interactive elements
+
 
 ### Screenshot
 
