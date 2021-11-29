@@ -60,6 +60,7 @@ main {
     place-items: center;
 }
 
+
 .header:hover .view-container {
     display: block;
 }
@@ -78,13 +79,14 @@ main {
 .grid-info-items {
     display: grid;
     grid: 1fr / min-content 1fr;
-    grid-gap: 0.2rem;
+    grid-gap: 0.4rem;
     align-items: center;
 }
 
 .info {
     display: grid;
-    justify-content: space-between;
+    grid: 1fr / 1fr 1fr;
+    align-items: center;
 }
 
 .value {
