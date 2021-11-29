@@ -131,6 +131,7 @@ main {
 .hover-item:hover {
     color: var(--cyan);
     text-decoration: none;
+    cursor: pointer;
 }
 
 /* Footer section */
