@@ -55,7 +55,6 @@ main {
 
 .view-container {
     display: none;
-    grid-area: 1 / 1 / 2 / 2;
     background-color: hsla(178, 100%, 50%, 0.3);
     height: 100%;
     width: 100%;
