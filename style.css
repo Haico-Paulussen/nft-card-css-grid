@@ -76,7 +76,7 @@ main {
 .card h1 {
     color: white;
     margin: 0;
-    font-weight: 400;
+    font-weight: 600;
     font-size: 1.4rem;
 }
 
@@ -99,6 +99,7 @@ main {
 
 .value {
     color: var(--cyan);
+    font-weight: 400;
 }
 
 .time {
