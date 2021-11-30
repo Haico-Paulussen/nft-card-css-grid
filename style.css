@@ -25,7 +25,7 @@ main {
     display: grid;
     place-items: center;
     padding: 4rem 1rem 4rem 1rem;
-    width: 375px;
+    max-width: 375px;
 }
 
 .card {
@@ -132,13 +132,12 @@ main {
 }
 
 /* Footer section */
-footer {
+body > footer {
     color: black;
     text-align: center;
-    position: fixed;
-    width: 100vw;
-    left: 0;
-    bottom: 0;
+    position: sticky;
+    top: 100vh;
+    width: 100%;
     background-color: #f2f2f2;
 }
 
@@ -150,4 +149,8 @@ footer {
 
 .attribution a {
     color: hsl(228, 45%, 44%);
+}
+.attribution a:hover{
+    color: hsl(256, 100%, 0%);
+    text-decoration: none;
 }
