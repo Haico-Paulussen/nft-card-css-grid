@@ -69,6 +69,7 @@ main {
 
 .header:hover .view-container {
     display: block;
+    cursor: pointer;
 }
 
 .card h1 {
