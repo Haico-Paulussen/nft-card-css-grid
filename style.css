@@ -19,6 +19,7 @@ body {
     background-color: var(--very-dark-blue-main);
     display: grid;
     place-items: center;
+    margin: 0;
 }
 
 main {
