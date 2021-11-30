@@ -20,6 +20,7 @@ body {
     display: grid;
     place-items: center;
     margin: 0;
+    height: 100%;
 }
 
 main {
